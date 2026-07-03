@@ -33,38 +33,4 @@ Every week's folder has its own detailed `README.md` summarizing files and code 
 
 ---
 
-## 🧭 How to Upload Week-Wise to GitHub
 
-To upload your work week-by-week to your personal GitHub repository, follow these steps:
-
-### Step 1: Initialize Git
-Open PowerShell or your terminal in this root directory (`d:\cognizant JFSE DN5.0`) and run:
-```powershell
-git init
-git remote add origin https://github.com/<your-username>/<your-repo-name>.git
-```
-
-### Step 2: Upload Week 1
-To commit and push only the first week's content:
-```powershell
-git add "Week 1 - Frontend Basics" README.md .gitignore
-git commit -m "Upload Week 1: Frontend Basics"
-git branch -M main
-git push -u origin main
-```
-
-### Step 3: Upload Week 2
-Once Week 1 is uploaded and you are ready for Week 2:
-```powershell
-git add "Week 2 - Client Logic & Core Java"
-git commit -m "Upload Week 2: Client Logic & Core Java"
-git push
-```
-
-*Repeat Step 3 for each subsequent week (`Week 3` through `Week 7`) as you progress or submit them to your Point of Contact (POC).*
-
----
-
-## ✍️ Author
-
-**Ketan Singh**
