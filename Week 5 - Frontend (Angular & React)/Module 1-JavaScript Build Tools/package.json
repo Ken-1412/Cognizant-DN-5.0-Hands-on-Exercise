@@ -1,0 +1,16 @@
+{
+  "name": "js-build-tools-demo",
+  "version": "1.0.0",
+  "description": "Demo for Babel and Webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "babel-loader": "^9.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
+}
